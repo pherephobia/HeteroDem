@@ -1,0 +1,14 @@
+\begin{istgame}[font=\footnotesize]
+	\centering
+	\setistgrowdirection'{east}
+	\setistmathTF002
+	\xtShowArrows
+	\istroot(0)[initial node]<180>{\textbf{Elites}}+20mm..50mm+
+	\istb{Resist}[above,sloped]  \istb{Concede}[above,sloped] \endist
+	\istroot(1)(0-1)<180>{\textbf{Masses}}+15mm..30mm+
+	\istb{Agree}[above,sloped]{\textit{Resistance Game} (E $- \gamma\alpha_{M}$, M$-\alpha_{M}$) }
+	\istb{$\sim$Agree}[above,sloped]{\textit{Accountability Game} (E $- \gamma\alpha_{M} + \beta$, M $- \alpha_{M} - \beta$)}  \endist
+	\istroot(2)(0-2)<180>{\textbf{Masses}}+15mm..30mm+
+	\istb{Assault}[above,sloped]{\textit{Acemoglu \& Robinson Game} (E $+ \beta,\; $M$-\beta$)}
+	\istb{$\sim$Assault}[above,sloped]{\textit{Elite-biased Democracy} (E $-\delta$ , M $+ \delta$)} \endist
+\end{istgame}

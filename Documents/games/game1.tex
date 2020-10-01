@@ -1,0 +1,19 @@
+	\begin{istgame}[font=\footnotesize]
+	\centering
+	\setistgrowdirection'{east}
+	\setistmathTF002
+	\xtShowArrows
+	\istroot(0)[initial node]<180>{\textbf{Elites}}+30mm..50mm+
+	\istb{Resist}[above,sloped]  \istb{Concede}[above,sloped] \endist
+	\istroot(1)(0-1)<180>{\textbf{Masses}}+20mm..25mm+
+	\istb{Agree}[above,sloped]{\textit{Resistance Game} (E $- \alpha_{E}$, M$-\gamma\alpha_{E}$) }
+	\istb{$\sim$Agree}[above,sloped]{ }  \endist
+	\istroot(3)(1-2)<180>{\textbf{Masses}}+20mm..25mm+
+	\istb{$\alpha_{M}$}[above,sloped]{\textit{Accountability Game with Sanction}
+		(E$- \alpha_{E}- (1-\beta)$, M$-\gamma\alpha_{E}-\beta)$}
+	\istb{$\sim\alpha_{M}$}[above,sloped]{\textit{Accountability Game without Sanction} 
+		(E$-(1 - \beta)$, M$-\beta)$} \endist
+	\istroot(2)(0-2)<180>{\textbf{Masses}}+20mm..25mm+
+	\istb{Assault}[above,sloped]{\textit{Revolt Game} (E $- (1-\beta),\; $M$-\beta$)}
+	\istb{$\sim$Assault}[above,sloped]{\textit{Democracy} (E $-\delta$ , M $- (1-\delta)$)} \endist
+\end{istgame}

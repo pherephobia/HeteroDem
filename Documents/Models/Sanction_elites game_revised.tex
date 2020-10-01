@@ -1,0 +1,209 @@
+\documentclass[11pt]{article}
+\usepackage{setspace}
+\doublespacing
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{graphics} % for pdf, bitmapped graphics files
+\usepackage{epsfig} % for postscript graphics files
+\usepackage{mathptmx} % assumes new font selection scheme installed
+\usepackage{times} % assumes new font selection scheme installed
+\usepackage[fleqn]{amsmath} % assumes amsmath package installed
+\usepackage{amssymb}  % assumes amsmath package installed
+\usepackage{bookmark}
+\hypersetup{
+	colorlinks   = true, %Colours links instead of ugly boxes
+	urlcolor     = blue, %Colour for external hyperlinks
+	linkcolor    = blue, %Colour of internal links
+	citecolor   = blue %Colour of citations,
+}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage[utf8]{inputenc}
+\usepackage{adjustbox}
+\usepackage{istgame}
+\usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{}{,}
+\usepackage{ntheorem}
+\theoremseparator{:}
+\newtheorem{hyp}{Hypothesis}
+
+
+\begin{document}
+	\section*{The Model}
+	I begin by explaining the assumptions of the model. These assumptions have two key implications: (1) the strategic decisions of the masses determine what the game would be. Also, (2) the relative power between the elites and masses affects the strategic decision making of both. Game 1 and Game 2 describe each model, whether sanctions target the elites or the masses.
+	
+	\subsection*{General Assumptions}
+	As in many examples in \cite{Acemoglu2006a}, I assume that individuals in targeted states are members of one of two classes, indexed \textit{J}. These are \textit{E}, the elites and \textit{M}, the masses. Here, I present a set of terms to show the strategic behaviors between the \textit{E} and \textit{M} in the two different games. The denotation is determined arbitrarily. Also, I assume that the purpose of sanctions is to constrain target states and make targets change their regimes from existing authoritarian regimes.
+	
+	\begin{itemize}
+		\item $\alpha_J$ includes all kinds of the loss from the sanction that targeted group suffers.
+		\item $\gamma$ is a proportion that displays the differences of losses from the sanctions between \textit{E} and \textit{M} when sanctions do not target each of them. For example, when sanctions target \textit{E}, \textit{M} will lose not whole amount of $\alpha_{E}$, but certain fractions of $\alpha$, $\gamma\alpha_{E}$. I assume $\gamma$ is equal to both of \textit{E} and \textit{M}.
+		\item $\beta$ means the cost of revolt for \textit{M}. In other words, $\beta$ is the benefit of repression for \textit{E}. $\beta$ has entirely opposite meaning for each player, \textit{E} and \textit{M}.
+		\item $\delta$ is the amount of cost for \textit{E} when they give up through conceding to \textit{M} (democratization costs for \textit{E}). In other words, $\delta$ is the amount of benefit for \textit{M} can get when \text{E} gives something up during democratization.
+	\end{itemize}
+	
+	\subsection*{Game 1: Sanction Imposed Targeting Elites}
+	
+	\begin{istgame}[font=\footnotesize]
+		\centering
+		\setistgrowdirection'{east}
+		\setistmathTF002
+		\xtShowArrows
+		\istroot(0)[initial node]<180>{\textbf{Elites}}+20mm..50mm+
+		\istb{Resist}[above,sloped]  \istb{Concede}[above,sloped] \endist
+		\istroot(1)(0-1)<180>{\textbf{Masses}}+15mm..30mm+
+		\istb{Agree}[above,sloped]{\textit{Resistance Game} (E $- \alpha_{E}$, M$-\gamma$$\alpha_{E}$) }
+		\istb{$\sim$Agree}[above,sloped]{\textit{Accountability Game} (E $- \alpha_{E} + \beta$, M $- \gamma\alpha_{E} - \beta$)}  \endist
+		\istroot(2)(0-2)<180>{\textbf{Masses}}+15mm..30mm+
+		\istb{Assault}[above,sloped]{\textit{Acemoglu \& Robinson Game} (E $+ \beta,\; $M$-\beta$)}
+		\istb{$\sim$Assault}[above,sloped]{\textit{Elite-biased Democracy} (E $-\delta$ , M $+ \delta$)} \endist
+	\end{istgame}
+	
+	
+	The first game shows the sequences when senders impose sanctions targeting the elites. As an initial actor, \textit{E} has two choices: resist against sanction or concede to the sanction. If \textit{E} chooses to resist, then the next action is for \textit{M}. \textit{M} can agree with the resistance toward the sanction with \textit{E} or disagree with it. When \textit{M} agree with \textit{E}, each has the expected payoffs of ($E-\alpha_E, M-\gamma\alpha_{E}$). This outcome is \texttt{Resistance game}, which the conflict between sanction targets and senders.
+	
+	When \textit{M} disagree with \textit{E}, then \textit{E} and \textit{M} should be in tensions. \textit{E} should suffer from the costs of the sanction, and also, they need to pay additional costs for the tension with \textit{M}. At this stage, it is difficult to say that \textit{E} will use force to repress the \textit{M} because \textit{E} should consider the power of \textit{M} and \textit{M}'s expected costs of tensions, which will affect the prospects of winning when \textit{E} and \textit{M} fight. Here, \textit{E} would expect the costs of sanction ($\alpha_{E}$) and possible costs of repression ($\beta$). \textit{M} expects to lose due to sanction ($\gamma\alpha_{E}$) and the costs of revolt ($\beta$). The relative costs of the revolts will determine who will win, but it is beyond this project.
+	
+	How bout \textit{E} concede to the sanction? \textit{M} can assault toward the decision of \textit{E} or comply with it. As they agree with the imposed sanction, we do not need to consider the sanction costs in this scenario. Thus, if \textit{M} disagree with \textit{E} and assault, \textit{E} should expect the possible costs of repression. \textit{M} also considers the costs of revolt only.
+	
+	Lastly, if \textit{M} does not assault and follow the decisions of \textit{E}, according to the assumption, \textit{E} would accept the democratization. Thus, \textit{E} expects the possible costs that they should give up through democratization. Otherwise, the costs for \textit{M} should be opposite to the costs of \textit{E}.
+	
+	\subsection*{Possible outcomes}
+	
+	In this section, I show the possible outcomes that the game of sanction targeting the \textit{E} can have. We can suggest that \textit{E} will choose what to do strategically considering the expected moves of \textit{M}. Thus, we need to follow the possible choices of \textit{M} backward.
+	
+	\subsubsection*{The choices of the masses}
+	
+	If \textit{E} resist, \textit{M} have two possible choices. \textit{M} can agree with the decisions of \textit{E} to fight against the sanction sender. Otherwise,  \textit{M} are also able to disagree with \textit{E}' decision, and want to hold \textit{E} responsible for the sanction. To know when \textit{E} resist, we should figure out when \textit{M} disagree with \textit{E}.
+	
+	On one hand, the expected payoffs of possible outcomes for \textit{M} are $M-\gamma\alpha_{E}$ under \textit{Resistance game} or $M-\gamma\alpha_{E}-\beta$ under \textit{Accountability game} if \textit{E} decide to resist against sanctions. Comparing the two expected payoffs, it is easy to draw that when \textit{E} choose to resist and $\beta$ is positive, \textit{M} will prefer \textit{Resistance game} to \textit{Accountability Game}. On the other hand, \textit{E} can concede to sanction senders. In this case, the expected payoff of \textit{M} is $M-\beta$ under the \textit{Acemoglu \& Robinson game} or $M+\delta)$ obtained by \textit{elite-biased democratization}. Thus if $\beta$, the costs of revolution or revolts are greater than the costs of democratization, \textit{M} would prefer democratization to \textit{Acemoglu \& Robinson game}, which is much costly. Thus, we can summarize the best responses of \textit{M} as follows:
+	\begin{itemize}
+		\item When \textit{E} choose to resist and $\beta > 0$, \textit{M} will prefer \textit{Resistance game} to \textit{Accountability Game}.
+		\item If \textit{E} concede and $\beta > \delta$, \textit{M} will choose the payoff of \textit{democratization}.
+	\end{itemize}
+	
+	Conversely, suppose the opposite scenarios that $\beta < 0$ when \textit{E} decide to resist against sanctions. It means that \textit{M} can get something beneficial after the revolts, and they might prefer \textit{Accountability game} to \textit{Resistance game}. On the contrary, when $\beta > \delta$, \textit{M} will choose \textit{Acemoglu \& Robinson game} to democratization. We can rewrite the best responses of \textit{M} under the given conditions as follows:
+	\begin{itemize}
+		\item When \textit{E} choose to resist and $\beta < 0$, \textit{M} will prefer \textit{Accountability Game} to \textit{Resistance game}.
+		\item If \textit{E} concede and $\beta < \delta$, \textit{M} will choose the payoff of \textit{Acemoglu \& Robinson game}.
+	\end{itemize}
+	
+	Lastly, when \textit{E} resist and $\beta = 0$, the possible two outcomes are indifferent for \textit{M}. Thus, it makes \textit{E} consider the probability of revolts for calculating their utilities. Likewise, when \textit{E} concede and $\beta = 0$, the determining factor here should be the costs of democratization, $\delta$. \textit{M}'s expected payoffs for \textit{AR game} should be just $M$. If there exist any costs of democratization for \textit{M}, \textit{M} will choose to assault and proceed the game of \textit{Acemoglu \& Robinson}. 
+	
+	\subsubsection*{The choices of the elites}
+	
+	For the first conditions of $\beta > 0, \beta > \delta$, when \textit{E} expect the best responses of \textit{M}, \textit{E} would compare the expected payoffs of \textit{Resistance game} ($E-\alpha_{E}$) and \textit{Elite-biased democracy} ($E-\delta$). It implies that when $\delta > \alpha_{E}$, \textit{E} prefer to resist against sanctions, otherwise \textit{E} will choose to concede to sanctions and follow the path of democratization. Through the choices of \textit{M} and \textit{E}, we can figure out the equilibria of the games when senders impose sanction targeting \textit{E}. Supposing $\beta > 0, \beta > \delta > \alpha_{E}$, the equilibrium would be \textit{Elite-biased democracy}. If $\beta > 0, \beta > \alpha_{E} > \delta$, the equilibrium should be \textit{Resistance game}.
+	
+	Otherwise, for the second conditions of $\beta <0, \beta < \delta$, \textit{E} always choose to concede. The expected payoff of \textit{AR game} ($E+\beta)$) is always greater than the expected payoff of \textit{Accountability game} since $\alpha_{E} > 0$ by assumption. It means that \textit{E} would always concede if they know \textit{M} are going to revolt. When $\beta = 0$, \textit{E} should manage (1) the probability of revolts, and (2) the costs of democratization.
+	
+	\subsubsection*{Implications of elite-targeted sanction game}
+	
+	Wen $\beta > 0$ and $\beta > \delta$. There exist costs of revolts, and the costs are greater than the costs of democratization. Under this condition, whether to democratize or not is determined by $\alpha_{E}$ relative to the costs of democratization ($\delta$). Thus, I establish the following testable hypothesis:
+	
+	\begin{hyp}
+		Elite-targeted sanctions lead democratizations only when the costs of sanction are so large that elites think sanctions are more harmful than democratization.
+	\end{hyp}
+	
+	
+	%However, \textit{E} in authoritarian regimes utilize various strategies to suppress mass demonstrations or revolts arisen from below. They use not only the repression, but also co-optation \citep{Acemoglu2006a,Gandhi2006,Frantz2014,Bove2015}. Thus, it is challenging to suppose that revolts are not costly. \textit{M} should confront various costs when they go to revolts.
+	
+	
+	
+	\subsection*{Game 2: Sanction Imposed Targeting Masses}
+	\begin{istgame}[font=\footnotesize]
+		\centering
+		\setistgrowdirection'{east}
+		\setistmathTF002
+		\xtShowArrows
+		\istroot(0)[initial node]<180>{\textbf{Elites}}+20mm..50mm+
+		\istb{Resist}[above,sloped]  \istb{Concede}[above,sloped] \endist
+		\istroot(1)(0-1)<180>{\textbf{Masses}}+15mm..30mm+
+		\istb{Agree}[above,sloped]{\textit{Resistance Game} (E $- \gamma\alpha_{M}$, M$-\alpha_{M}$) }
+		\istb{$\sim$Agree}[above,sloped]{\textit{Accountability Game} (E $- \gamma\alpha_{M} + \beta$, M $- \alpha_{M} - \beta$)}  \endist
+		\istroot(2)(0-2)<180>{\textbf{Masses}}+15mm..30mm+
+		\istb{Assault}[above,sloped]{\textit{Acemoglu \& Robinson Game} (E $+ \beta,\; $M$-\beta$)}
+		\istb{$\sim$Assault}[above,sloped]{\textit{Elite-biased Democracy} (E $-\delta$ , M $+ \delta$)} \endist
+	\end{istgame}
+	
+	The second game presumes that the senders impose sanctions targeting the masses. In this game, the first mover, \textit{E}, has two identical choices of the first game. \textit{E} will choose to resist against sanction or concede to the sanction. We can establish the game of sanction imposed targeting \textit{M} like the game of sanction targeting \textit{E}. However, the expected payoffs when \textit{E} resist are different from the first game in the second game because the sanctions harm \textit{M} thoroughly, and \textit{E} only suffer from the sanction partially.
+	
+	\subsection*{Possible outcomes}
+	
+	\subsubsection*{The choices of the masses}
+	
+	First, we can expect how \textit{M} will move when \textit{M} suppose \textit{E} chooses to resist or concede respectively. On the one hand, when \textit{E} resist, \textit{M} will choose whether to agree or not to agree with \textit{E}. We can call the game when \textit{M} agree with \textit{E} to fight against the sanction as \textit{Resistance game}. The expected payoffs for \textit{M} in the second game of \textit{Resistance game} is (ME-$\alpha_{M}$) because the sanction targets \textit{M}. Otherwise, \textit{M} can disagree with \textit{E} and want to concede to the sanction. In this case, \textit{M} takes the expected payoffs of (M$-\alpha_{M}-\beta$), which means that they should suffer from the sanction and also take the costs of revolutions. Since the sender seeks political changes in targets, they will not withdraw the sanctions unless $textit{E}$ concede to the sanction. Thus, although \textit{M} are willing not to agree with \textit{E} that resist against sanctions, \textit{M} have to bear the costs of sanction targeting them.
+	
+	On the other hand, suppose the case when \textit{E} concede to the sanction. In this case, the expected payoffs of \textit{M} are same as the payoffs in the first game. $M-\beta$ under the \textit{Acemoglu \& Robinson game} or $M + \delta$ obtained by \textit{elite-biased democratization}. Thus if $\beta$, the costs of revolution or revolts are greater than the costs of democratization, \textit{M} would prefer democratization to \textit{Acemoglu \& Robinson game}, which is much costly. Thus, we can summarize the best responses of \textit{M} as follows and they are not different from the first game:
+	
+	\begin{itemize}
+		\item When \textit{E} choose to resist and $\beta > 0$, \textit{M} will prefer \textit{Resistance game} to \textit{Accountability Game}.
+		\item If \textit{E} concede and $\beta > \delta$, \textit{M} will choose the payoff of \textit{democratization}.
+	\end{itemize}
+	
+	If $\beta < 0$, \textit{M} can get something beneficial after the revolts. Under the condition of $\beta < 0$, \textit{M} might prefer \textit{Accountability game} to \textit{Resistance game} when \textit{E} resist against sanctions. Otherwise, when $\beta > \delta$, \textit{M} will choose \textit{Acemoglu \& Robinson game} to democratization. 
+	\begin{itemize}
+		\item When \textit{E} choose to resist and $\beta < 0$, \textit{M} will prefer \textit{Accountability Game} to \textit{Resistance game}.
+		\item If \textit{E} concede and $\beta < \delta$, \textit{M} will choose the payoff of \textit{Acemoglu \& Robinson game}.
+	\end{itemize}
+	
+	When $\beta = 0$, \textit{M} have two indifferent payoffs for agreeing or disagreeing with \textit{E}. It makes \textit{E} consider the probability of revolts for calculating their utilities because if \textit{M} expect that it is more likely to win when they revolt, \textit{M} would revolt to take greater expected payoffs.    Likewise, when \textit{E} concede and $\beta = 0$, the determining factor should be the costs of democratization, $\delta$. \textit{M}'s expected payoffs for \textit{AR game} should be $M$ if $\beta = 0$. If there exist any costs of democratization for \textit{M}, \textit{M} will choose to assault and proceed the game of \textit{Acemoglu \& Robinson}. 
+	
+	\subsubsection*{The choices of the elites}
+	
+	For the first conditions of $\beta > 0, \beta > \delta$, when \textit{E} expect the best responses of \textit{M}, \textit{E} would compare the expected payoffs of \textit{Resistance game} ($E-\gamma\alpha_{E}$) and \textit{Elite-biased democracy} ($E-\delta$). It implies that when $\delta > \gamma\alpha_{E}$, \textit{E} prefer to resist against sanctions, otherwise \textit{E} will choose to concede to sanctions and follow the path of democratization. Through the choices of \textit{M} and \textit{E}, we can figure out the equilibria of games when senders impose sanction targeting \textit{E}. Supposing $\beta > 0, \beta > \delta > \gamma\alpha_{E}$, the equilibrium would be \textit{Elite-biased democracy}. If $\beta > 0, \beta > \gamma\alpha_{E} > \delta$, the equilibrium should be \textit{Resistance game}.
+	
+	Otherwise, for the second conditions of $\beta <0, \beta < \delta$, \textit{E} always choose to concede. The expected payoff of \textit{AR game} ($E + \beta)$) is always greater than the expected payoff of \textit{Accountability game} since $\gamma\alpha_{E} > 0$ by assumption. It means that \textit{E} would always concede if they know \textit{M} are going to revolt. When $\beta = 0$, \textit{E} should manage (1) the probability of revolts, and (2) the costs of democratization.
+	
+	\subsubsection*{Implications of mass-targeted sanction game}
+	We can suppose that $\beta > 0$ and $\beta > \delta$. It means that there exist costs of revolts, and the costs are greater than the costs of democratization. Here, $\gamma\alpha_{M}$ compared to the costs of democratization ($\delta$) determines democratization. Here, the only different thing for \textit{E} is that it maybe much smaller for \textit{E} to endure ($\gamma\alpha{M}$) compared to the costs of sanction targeting elites ($\alpha_{E}$) in the first game. It means that we only expect the similar outcomes that \textit{E} chooses to democratize when $\gamma\alpha{M} \geq \alpha_{E}$, when $0 < \gamma < 1$. I draw the second hypothesis:
+	
+	\begin{hyp}
+		\label{hyp2}
+		Mass-targeted sanctions lead democratizations only when the costs of sanction targeting masses are much higher than those of sanction targeting elites, so elites think sanctions are more harmful than democratization.
+	\end{hyp}
+	
+	
+	\subsection*{Questions or Ideas}
+	\subsubsection*{Question 1}
+	I think the equilibria of the second game do not look different from the first game. The only difference I think is the types of sanctions. We can easily anticipate that the fraction of sanction costs targeting masses ($\gamma\alpha_{M}$) is difficult to be greater than the sanction costs targeting elites ($\alpha_{E}$). So when I think of the research topic, I can argue and emphasize that the different types of sanctions matter in terms of democratization as it implies ``different levels of burdens for senders'' either. Thus, I rewrote the \ref{hyp2} differently as follows:
+	
+	\begin{hyp}
+		Mass-targeted sanctions are less likely to lead democratizations than elite-targeted sanctions because it requires senders to impose much greater costs on the target states that also burden for senders.
+	\end{hyp}
+	
+	\subsubsection*{Question 2}
+	If I include the probability of losing in revolution called $\tau$ and $0 < \tau < 1$, I can add one more stage at the nodes of \textit{Accountability game} and \textit{AR game}. However, I think it is not useful since we have two unknowns at $\delta, \beta$. Here, the $\Pr(\textit{M} lose)$ do not change the equilibria since we do not know whether the costs of revolution when \textit{M} expect to win is greater or less than the benefits of democratization that \textit{M} expect. Do I think, right?
+	
+	\subsection*{Test game: Sanction Imposed Targeting Masses with Probabilities}
+	\begin{istgame}[font=\footnotesize]
+		\centering
+		\setistgrowdirection'{east}
+		\setistmathTF002
+		\xtShowArrows
+		\istroot(0)[initial node]<180>{\textbf{Elites}}+30mm..70mm+
+		\istb{Resist}[above,sloped]  \istb{Concede}[above,sloped] \endist
+		\istroot(1)(0-1)<180>{\textbf{Masses}}+20mm..30mm+
+		\istb{Agree}[above,sloped]{\textit{Resistance Game} (E $- \gamma\alpha_{M}$, M$-\alpha_{M}$) }
+		\istb{$\sim$Agree}[above,sloped]{ }  \endist
+		\istroot(3)(1-2)<180>{\textbf{Masses}}+15mm..20mm+
+		\istb{$\tau > 0.5$}[above,sloped]{\textit{Accountability Game} when \textit{M} win: (E$-\gamma\alpha_{M}+\tau\beta$, M$-\alpha_{M}-\tau\beta)$}
+		\istb{$\tau < 0.5$}[above,sloped]{\textit{Accountability Game} when \textit{M} lose: (E$-\gamma\alpha_{M}+\tau\beta$, M$-\alpha_{M}-\tau\beta)$} \endist
+		\istroot(2)(0-2)<180>{\textbf{Masses}}+20mm..30mm+
+		\istb{Assault}[above,sloped]{}
+		\istb{$\sim$Assault}[above,sloped]{\textit{Elite-biased Democracy} (E $-\delta$ , M $+ \delta$)} \endist
+		\istroot(4)(2-1)<180>{\textbf{Masses}}+15mm..20mm+
+		\istb{$\tau > 0.5$}[above,sloped]{\textit{AR Game} when \textit{M} win: (E$+\tau\beta$, M$-\tau\beta)$}
+		\istb{$\tau < 0.5$}[above,sloped]{\textit{AR Game} when \textit{M} lose: (E$+\tau\beta$, M$-\tau\beta)$} \endist
+	\end{istgame}
+	
+	If so, I can consider one more condition like:
+	\begin{itemize}
+		\item When \textit{E} choose to resist and $\beta > 0, \tau > 0.5$, \textit{M} will prefer \textit{Resistance game} to \textit{Accountability Game}.
+		\item If \textit{E} concede and $\tau\beta > \delta$, \textit{M} will choose the payoff of \textit{democratization}.
+	\end{itemize}
+	
+	
+	\bibliographystyle{apsr}
+	\bibliography{19AuthWelfare}
+	
+\end{document}

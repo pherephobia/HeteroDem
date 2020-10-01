@@ -1,0 +1,16 @@
+preamble	"\\begin{theindex}\n
+\\def\\hindexhead#1{\\ifcase#1ㄱ\\or ㄴ\\or ㄷ\\or ㄹ\\or
+  ㅁ\\or ㅂ\\or ㅅ\\or ㅿ\\or ㅇ\\or ㆁ\\or ㅈ\\or ㅊ\\or ㅋ\\or
+  ㅌ\\or ㅍ\\or ㅎ\\or ㆆ\\or ㅏ\\or ㅑ\\or ㅓ\\or ㅕ\\or ㅗ\\or
+  ㅛ\\or ㅜ\\or ㅠ\\or ㅡ\\or ㅣ\\or ㆍ\\else 종성\\fi}\n\n"
+
+headings_flag	    1
+group_skip          "\n\n\\indexspace\n"
+item_0              "\n\\item "
+heading_prefix      "{\\sffamily【 "
+heading_suffix      " 】}\\nopagebreak\n"
+%symhead_positive    "Symbols"
+%numhead_positive    "Numbers"
+delim_0             "\\quad "
+delim_1             "\\quad "
+delim_2             "\\quad "

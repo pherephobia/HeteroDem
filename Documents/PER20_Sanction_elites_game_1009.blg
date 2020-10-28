@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: PER20_Sanction_elites_game_1009.aux
+The style file: apsr.bst
+Database file #1: 20AuthSanctions.bib
+You've used 33 entries,
+            2874 wiz_defined-function locations,
+            861 strings with 9560 characters,
+and the built_in function-call counts, 118452 in all, are:
+= -- 19369
+> -- 1197
+< -- 1
++ -- 8874
+- -- 442
+* -- 9875
+:= -- 24058
+add.period$ -- 133
+call.type$ -- 33
+change.case$ -- 431
+chr.to.int$ -- 32
+cite$ -- 33
+duplicate$ -- 527
+empty$ -- 1117
+format.name$ -- 479
+if$ -- 21277
+int.to.chr$ -- 6
+int.to.str$ -- 0
+missing$ -- 47
+newline$ -- 150
+num.names$ -- 366
+pop$ -- 171
+preamble$ -- 1
+purify$ -- 495
+quote$ -- 0
+skip$ -- 397
+stack$ -- 0
+substring$ -- 27072
+swap$ -- 68
+text.length$ -- 463
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 104
+warning$ -- 0
+while$ -- 766
+width$ -- 0
+write$ -- 468

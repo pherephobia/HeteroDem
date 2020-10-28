@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.8.22)  23 OCT 2020 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.8.22)  9 OCT 2020 11:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**PER20_Sanction_elites_game_1001.tex
-(./PER20_Sanction_elites_game_1001.tex
+**PER20_Sanction_elites_game_1009.tex
+(./PER20_Sanction_elites_game_1009.tex
 LaTeX2e <2018-04-01> patch level 5
 (c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1630,8 +1630,8 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@hyp=\count305
 
-(./PER20_Sanction_elites_game_1001.aux)
-\openout1 = `PER20_Sanction_elites_game_1001.aux'.
+(./PER20_Sanction_elites_game_1009.aux)
+\openout1 = `PER20_Sanction_elites_game_1009.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
@@ -1787,154 +1787,239 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 77.
  [1
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-
-Package natbib Warning: Citation `Levitsky2010' on page 3 undefined on input li
-ne 90.
-
-[3]
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
- [4]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 139.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
- (./games/game1.tex) [5]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 136.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 143.
+ [6]
+(./games/game1.tex)
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 157.
 
-
-(c:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+ (c:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [6]
-Overfull \hbox (5.90306pt too wide) in paragraph at lines 148--149
-\OT1/ptm/m/n/10 Recalling the choices of \OT1/ptm/m/it/10 M\OT1/ptm/m/n/10 , be
--cause \OT1/pcr/m/n/10 Resistance game \OT1/ptm/m/n/10 dom-i-nates \OT1/pcr/m/n
-/10 Accountability game with sanction
- []
-
-
-Overfull \hbox (0.7432pt too wide) in paragraph at lines 148--149
-\OT1/ptm/m/n/10 for \OT1/ptm/m/it/10 M\OT1/ptm/m/n/10 , \OT1/ptm/m/it/10 E \OT1
-/ptm/m/n/10 will com-pare his pay-offs of \OT1/pcr/m/n/10 Resistance game \OT1/
-ptm/m/n/10 and \OT1/pcr/m/n/10 Accountability game without sanction\OT1/ptm/m/n
-/10 .
- []
-
+)
+[7] [8]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 152.
-
-Package xcolor Warning: Incompatible color definition on input line 160.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 173.
 
 
-Package xcolor Warning: Incompatible color definition on input line 160.
+Package xcolor Warning: Incompatible color definition on input line 181.
 
 
-Package xcolor Warning: Incompatible color definition on input line 160.
+Package xcolor Warning: Incompatible color definition on input line 181.
 
 
-Package xcolor Warning: Incompatible color definition on input line 160.
+Package xcolor Warning: Incompatible color definition on input line 181.
 
 
-Package xcolor Warning: Incompatible color definition on input line 161.
+Package xcolor Warning: Incompatible color definition on input line 181.
 
 
-Package xcolor Warning: Incompatible color definition on input line 162.
+Package xcolor Warning: Incompatible color definition on input line 182.
 
 
-Package xcolor Warning: Incompatible color definition on input line 162.
+Package xcolor Warning: Incompatible color definition on input line 183.
 
 
-Package xcolor Warning: Incompatible color definition on input line 162.
+Package xcolor Warning: Incompatible color definition on input line 183.
 
 
-Package xcolor Warning: Incompatible color definition on input line 162.
+Package xcolor Warning: Incompatible color definition on input line 183.
 
 
-Package xcolor Warning: Incompatible color definition on input line 163.
+Package xcolor Warning: Incompatible color definition on input line 183.
 
 
-Package xcolor Warning: Incompatible color definition on input line 166.
+Package xcolor Warning: Incompatible color definition on input line 184.
 
 
-Package xcolor Warning: Incompatible color definition on input line 166.
+Package xcolor Warning: Incompatible color definition on input line 187.
 
 
-Package xcolor Warning: Incompatible color definition on input line 166.
+Package xcolor Warning: Incompatible color definition on input line 187.
 
 
-Package xcolor Warning: Incompatible color definition on input line 166.
+Package xcolor Warning: Incompatible color definition on input line 187.
 
 
-Package xcolor Warning: Incompatible color definition on input line 167.
+Package xcolor Warning: Incompatible color definition on input line 187.
 
 
-Package xcolor Warning: Incompatible color definition on input line 168.
+Package xcolor Warning: Incompatible color definition on input line 188.
 
 
-Package xcolor Warning: Incompatible color definition on input line 168.
+Package xcolor Warning: Incompatible color definition on input line 189.
 
 
-Package xcolor Warning: Incompatible color definition on input line 168.
+Package xcolor Warning: Incompatible color definition on input line 189.
 
 
-Package xcolor Warning: Incompatible color definition on input line 168.
+Package xcolor Warning: Incompatible color definition on input line 189.
 
 
-Package xcolor Warning: Incompatible color definition on input line 169.
+Package xcolor Warning: Incompatible color definition on input line 189.
 
 
-Package xcolor Warning: Incompatible color definition on input line 172.
+Package xcolor Warning: Incompatible color definition on input line 190.
 
 
-Package xcolor Warning: Incompatible color definition on input line 172.
+Package xcolor Warning: Incompatible color definition on input line 193.
 
 
-Package xcolor Warning: Incompatible color definition on input line 172.
+Package xcolor Warning: Incompatible color definition on input line 193.
 
 
-Package xcolor Warning: Incompatible color definition on input line 172.
+Package xcolor Warning: Incompatible color definition on input line 193.
 
 
-Package xcolor Warning: Incompatible color definition on input line 173.
+Package xcolor Warning: Incompatible color definition on input line 193.
 
 
-Package xcolor Warning: Incompatible color definition on input line 174.
+Package xcolor Warning: Incompatible color definition on input line 194.
 
 
-Package xcolor Warning: Incompatible color definition on input line 174.
+Package xcolor Warning: Incompatible color definition on input line 195.
 
 
-Package xcolor Warning: Incompatible color definition on input line 174.
+Package xcolor Warning: Incompatible color definition on input line 195.
 
 
-Package xcolor Warning: Incompatible color definition on input line 174.
+Package xcolor Warning: Incompatible color definition on input line 195.
 
 
-Package xcolor Warning: Incompatible color definition on input line 175.
+Package xcolor Warning: Incompatible color definition on input line 195.
 
-[7] [8] (./games/game2.tex) [9] [10] [11] [12] [13]
-(./PER20_Sanction_elites_game_1001.bbl [14])
 
-Package natbib Warning: There were undefined citations.
+Package xcolor Warning: Incompatible color definition on input line 196.
 
+[9] [10]
+
+Package mathptmx Warning: There are no bold math fonts on input line 233.
+
+Package hyperref Info: bookmark level for unknown hyp defaults to 0 on input li
+ne 233.
+[11] (./games/game2.tex)
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 280.
+
+
+Package xcolor Warning: Incompatible color definition on input line 281.
+
+
+Package xcolor Warning: Incompatible color definition on input line 282.
+
+
+Package xcolor Warning: Incompatible color definition on input line 282.
+
+
+Package xcolor Warning: Incompatible color definition on input line 282.
+
+
+Package xcolor Warning: Incompatible color definition on input line 282.
+
+
+Package xcolor Warning: Incompatible color definition on input line 283.
+
+
+Package xcolor Warning: Incompatible color definition on input line 286.
+
+
+Package xcolor Warning: Incompatible color definition on input line 286.
+
+
+Package xcolor Warning: Incompatible color definition on input line 286.
+
+
+Package xcolor Warning: Incompatible color definition on input line 286.
+
+
+Package xcolor Warning: Incompatible color definition on input line 287.
+
+
+Package xcolor Warning: Incompatible color definition on input line 289.
+
+
+Package xcolor Warning: Incompatible color definition on input line 289.
+
+
+Package xcolor Warning: Incompatible color definition on input line 289.
+
+
+Package xcolor Warning: Incompatible color definition on input line 289.
+
+
+Package xcolor Warning: Incompatible color definition on input line 290.
+
+
+Package xcolor Warning: Incompatible color definition on input line 293.
+
+
+Package xcolor Warning: Incompatible color definition on input line 293.
+
+
+Package xcolor Warning: Incompatible color definition on input line 293.
+
+
+Package xcolor Warning: Incompatible color definition on input line 293.
+
+
+Package xcolor Warning: Incompatible color definition on input line 294.
+
+
+Package xcolor Warning: Incompatible color definition on input line 296.
+
+
+Package xcolor Warning: Incompatible color definition on input line 296.
+
+
+Package xcolor Warning: Incompatible color definition on input line 296.
+
+
+Package xcolor Warning: Incompatible color definition on input line 296.
+
+
+Package xcolor Warning: Incompatible color definition on input line 297.
+
+! Undefined control sequence.
+l.313 ...ng to Table \ref{tab:table1}, Table \reef
+                                                  {tab:table2} tells that wh...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[12] (./PER20_Sanction_elites_game_1009.bbl [13] [14] [15])
 \tf@thm=\write4
-\openout4 = `PER20_Sanction_elites_game_1001.thm'.
+\openout4 = `PER20_Sanction_elites_game_1009.thm'.
 
-[15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 342.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 342.
- (./PER20_Sanction_elites_game_1001.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 342.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 342.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 342.
+ [16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
+
+(./PER20_Sanction_elites_game_1009.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 327.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 327.
  ) 
 Here is how much of TeX's memory you used:
- 32187 strings out of 492642
- 639045 string characters out of 6133162
- 737849 words of memory out of 5000000
- 35489 multiletter control sequences out of 15000+600000
- 592927 words of font info for 147 fonts, out of 8000000 for 9000
+ 32260 strings out of 492642
+ 640373 string characters out of 6133162
+ 744874 words of memory out of 5000000
+ 35547 multiletter control sequences out of 15000+600000
+ 592597 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,79p,1992b,1296s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,79p,1992b,1295s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
@@ -1945,11 +2030,11 @@ xlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2018/texmf-di
 st/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw
 /times/utmbi8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PER20_Sanction_elites_game_1001.pdf (15 pages, 159445 bytes).
+Output written on PER20_Sanction_elites_game_1009.pdf (16 pages, 158899 bytes).
 
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
+ 337 PDF objects out of 1000 (max. 8388607)
+ 304 compressed objects within 4 object streams
+ 74 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
